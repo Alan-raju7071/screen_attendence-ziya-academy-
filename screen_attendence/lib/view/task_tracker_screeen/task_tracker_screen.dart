@@ -74,6 +74,7 @@ class TaskTrackerScreen extends StatelessWidget {
                             child: Row(
                               children: [
                                 Text("Progress"),
+                                SizedBox(width: 15,),
                              
                             CircleAvatar(
                               radius: 17,
@@ -241,6 +242,7 @@ class TaskTrackerScreen extends StatelessWidget {
                             child: Row(
                               children: [
                                 Text("Progress"),
+                                 SizedBox(width: 15,),
                              
                             CircleAvatar(
                               radius: 17,
@@ -251,7 +253,7 @@ class TaskTrackerScreen extends StatelessWidget {
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(5),
-                                    child: Text("45%",style: TextStyle(
+                                    child: Text("55%",style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 10
                                     ),),
@@ -409,6 +411,7 @@ class TaskTrackerScreen extends StatelessWidget {
                             child: Row(
                               children: [
                                 Text("Progress"),
+                                 SizedBox(width: 15,),
                              
                             CircleAvatar(
                               radius: 17,
@@ -419,7 +422,7 @@ class TaskTrackerScreen extends StatelessWidget {
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(5),
-                                    child: Text("45%",style: TextStyle(
+                                    child: Text("32%",style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 10
                                     ),),
@@ -576,6 +579,7 @@ class TaskTrackerScreen extends StatelessWidget {
                             child: Row(
                               children: [
                                 Text("Progress"),
+                                 SizedBox(width: 15,),
                              
                             CircleAvatar(
                               radius: 17,

@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:screen_attendence/view/my_task_screen/my_task_screen.dart';
+import 'package:screen_attendence/view/ongoing_screen/ongoing_screen.dart';
+import 'package:screen_attendence/view/task_tracker_screeen/task_tracker_screen.dart';
+import 'package:screen_attendence/view/work_summary_screen/work_summary_screen.dart';
 
 class Homescreen extends StatelessWidget {
   const Homescreen({super.key});
@@ -196,7 +200,7 @@ class Homescreen extends StatelessWidget {
                         ],
                       ),
                        SizedBox(height:20),
-                Expanded(child: tabbar()),
+                tabbar(),
                 SizedBox(height:10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -208,7 +212,8 @@ class Homescreen extends StatelessWidget {
                      Icon(Icons.radio_button_checked),
                   
                      Text("Project"),
-                      Icon(Icons.radio_button_checked)
+                      Icon(Icons.radio_button_checked),
+                      Icon(Icons.wifi)
                   
                   
                     
@@ -217,7 +222,8 @@ class Homescreen extends StatelessWidget {
                 ),
                   
                   
-                       Expanded(
+                       SizedBox(
+                        height: 300,
                          child: TabBarView(children: [
                           mytasktabbar(),
                           tasktrackerbar(),
@@ -426,33 +432,57 @@ class tabbar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.red
-      ),
-      child: TabBar(
-         unselectedLabelColor: Colors.white,
-             unselectedLabelStyle: TextStyle(
-               fontWeight: FontWeight.normal,
-             ),
-              indicatorSize: TabBarIndicatorSize.tab,
-              labelStyle: TextStyle(
-               fontWeight: FontWeight.bold,
-              ),
-              labelColor: Colors.white,
-               indicator: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Colors.grey
-                 ),
-              dividerHeight: 0,
-        tabs: [
-        Tab(text: "mytask",),
-         Tab(text: "Task tracker",),
-          Tab(text: "ongoing and pending task",),
-           Tab(text: "work summary",),
-        
-      ]),
-    );
+    return TabBar(
+      isScrollable: true,
+       unselectedLabelColor: Colors.black,
+           unselectedLabelStyle: TextStyle(
+             fontWeight: FontWeight.normal,
+           ),
+            indicatorSize: TabBarIndicatorSize.tab,
+            labelStyle: TextStyle(
+             fontWeight: FontWeight.bold,
+            ),
+            labelColor: Colors.white,
+             indicator: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.blue
+               ),
+            dividerHeight: 0,
+      tabs: [
+      Tab(child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.date_range),
+        SizedBox(width: 8),
+        Text("Mytask"),
+      ],
+    ),),
+       Tab(child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.task),
+        SizedBox(width: 8),
+        Text("Task tracker"),
+      ],
+    ),),
+        Tab(child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.restart_alt),
+        SizedBox(width: 8),
+        Text("Ongoing \& pending task"),
+      ],
+    ),),
+         Tab(child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.file_copy),
+        SizedBox(width: 8),
+        Text("Working summary"),
+      ],
+    ),),
+      
+    ]);
   }
 }
 
@@ -467,9 +497,7 @@ class worksummarytabbar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-       color: Colors.orange,
-    );
+    return WorkSummaryScreen();
   }
 }
 
@@ -483,9 +511,7 @@ class ongoingtabbar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-       color: Colors.green,
-    );
+    return OngoingScreen();
   }
 }
 
@@ -499,9 +525,7 @@ class tasktrackerbar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-       color: Colors.blue,
-    );
+    return TaskTrackerScreen();
   }
 }
 
@@ -515,8 +539,6 @@ class mytasktabbar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.red,
-    );
+    return MyTaskScreen();
   }
 }
