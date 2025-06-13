@@ -30,8 +30,9 @@ class Homescreen extends StatelessWidget {
               child: Container(
               height: 60,
               decoration: BoxDecoration(
+                gradient: LinearGradient(colors: [Colors.blueAccent,Colors.green]),
                 borderRadius: BorderRadius.circular(10),
-                color: Colors.green,
+                
               ),
               child: Row(
                 children: [
@@ -106,6 +107,7 @@ class Homescreen extends StatelessWidget {
     
         ]
      ),
+     
 
         
         
