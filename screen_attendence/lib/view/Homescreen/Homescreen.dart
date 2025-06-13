@@ -344,7 +344,7 @@ class Homescreen extends StatelessWidget {
                   
                      Text("Project"),
                       Icon(Icons.radio_button_checked),
-                      Icon(Icons.filter_list_alt)
+                      Icon(Icons.tune)
                   
                   
                     
