@@ -19,7 +19,7 @@ class MyTaskScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      padding: const EdgeInsets.symmetric(vertical: 10),
                       child: Text("UI/UX Design Implement",style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
@@ -69,7 +69,7 @@ class MyTaskScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      padding: const EdgeInsets.symmetric(vertical: 10),
                       child: Text("Responsive Design",style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
@@ -91,7 +91,7 @@ class MyTaskScreen extends StatelessWidget {
                 
                           ),
                           child: Center(child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
                             child: Text("Start",style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white
@@ -120,7 +120,7 @@ class MyTaskScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      padding: const EdgeInsets.symmetric(vertical: 10),
                       child: Text("Back-end Development",style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
@@ -142,7 +142,7 @@ class MyTaskScreen extends StatelessWidget {
                 
                           ),
                           child: Center(child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
                             child: Text("Start",style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white
@@ -172,7 +172,7 @@ class MyTaskScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      padding: const EdgeInsets.symmetric(vertical: 10),
                       child: Text("Server-Side Logic",style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
@@ -194,7 +194,7 @@ class MyTaskScreen extends StatelessWidget {
                 
                           ),
                           child: Center(child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
                             child: Text("Start",style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.white

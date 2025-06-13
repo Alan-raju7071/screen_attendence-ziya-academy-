@@ -16,7 +16,7 @@ class OngoingScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding: const EdgeInsets.symmetric(vertical: 10),
                         child: Row(
                           children: [
                             Text("UI/UX Design Implement",style: TextStyle(
@@ -30,7 +30,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("Status:  "),
@@ -39,7 +39,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                        Padding(
-                         padding: const EdgeInsets.symmetric(vertical: 10),
+                         padding: const EdgeInsets.symmetric(vertical: 5),
                          child: Row(
                            children: [
                              Text("Start date:  "),
@@ -48,7 +48,7 @@ class OngoingScreen extends StatelessWidget {
                          ),
                        ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 10),
+                          padding: const EdgeInsets.symmetric(vertical: 5),
                           child: Row(
                             children: [
                               Text("Expeted completion:  "),
@@ -72,7 +72,7 @@ class OngoingScreen extends StatelessWidget {
                   
                             ),
                             child: Center(child: Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 20),
+                              padding: const EdgeInsets.symmetric(horizontal: 5),
                               child: Row(
                                 children: [
                                  
@@ -100,7 +100,7 @@ class OngoingScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("UI/UX Design Implement",style: TextStyle(
@@ -114,7 +114,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("Status:  "),
@@ -123,7 +123,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                        Padding(
-                         padding: const EdgeInsets.symmetric(vertical: 10),
+                         padding: const EdgeInsets.symmetric(vertical: 5),
                          child: Row(
                            children: [
                              Text("Start date:  "),
@@ -132,7 +132,7 @@ class OngoingScreen extends StatelessWidget {
                          ),
                        ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 10),
+                          padding: const EdgeInsets.symmetric(vertical: 5),
                           child: Row(
                             children: [
                               Text("Expeted completion:  "),
@@ -156,7 +156,7 @@ class OngoingScreen extends StatelessWidget {
                   
                             ),
                             child: Center(child: Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 20),
+                              padding: const EdgeInsets.symmetric(horizontal: 5),
                               child: Row(
                                 children: [
                                  
@@ -179,12 +179,12 @@ class OngoingScreen extends StatelessWidget {
               ),
               Container(
                 child: Padding(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(5),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("UI/UX Design Implement",style: TextStyle(
@@ -198,7 +198,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("Status:  "),
@@ -207,7 +207,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                        Padding(
-                         padding: const EdgeInsets.symmetric(vertical: 10),
+                         padding: const EdgeInsets.symmetric(vertical: 5),
                          child: Row(
                            children: [
                              Text("Start date:  "),
@@ -216,7 +216,7 @@ class OngoingScreen extends StatelessWidget {
                          ),
                        ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 10),
+                          padding: const EdgeInsets.symmetric(vertical: 5),
                           child: Row(
                             children: [
                               Text("Expeted completion:  "),
@@ -240,7 +240,7 @@ class OngoingScreen extends StatelessWidget {
                   
                             ),
                             child: Center(child: Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 20),
+                              padding: const EdgeInsets.symmetric(horizontal: 5),
                               child: Row(
                                 children: [
                                  
@@ -263,12 +263,12 @@ class OngoingScreen extends StatelessWidget {
               ),
               Container(
                 child: Padding(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(5),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("UI/UX Design Implement",style: TextStyle(
@@ -282,7 +282,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 5),
                         child: Row(
                           children: [
                             Text("Status:  "),
@@ -291,7 +291,7 @@ class OngoingScreen extends StatelessWidget {
                         ),
                       ),
                        Padding(
-                         padding: const EdgeInsets.symmetric(vertical: 10),
+                         padding: const EdgeInsets.symmetric(vertical: 5),
                          child: Row(
                            children: [
                              Text("Start date:  "),
@@ -300,7 +300,7 @@ class OngoingScreen extends StatelessWidget {
                          ),
                        ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 10),
+                          padding: const EdgeInsets.symmetric(vertical: 5),
                           child: Row(
                             children: [
                               Text("Expeted completion:  "),
@@ -324,7 +324,7 @@ class OngoingScreen extends StatelessWidget {
                   
                             ),
                             child: Center(child: Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 20),
+                              padding: const EdgeInsets.symmetric(horizontal: 5),
                               child: Row(
                                 children: [
                                  
