@@ -606,6 +606,7 @@ class tabbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TabBar(
+      tabAlignment: TabAlignment.start,
       isScrollable: true,
        unselectedLabelColor: Colors.black,
            unselectedLabelStyle: TextStyle(
@@ -623,7 +624,7 @@ class tabbar extends StatelessWidget {
             dividerHeight: 0,
       tabs: [
       Tab(child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      
       children: [
         Icon(Icons.date_range),
         SizedBox(width: 8),
@@ -631,7 +632,7 @@ class tabbar extends StatelessWidget {
       ],
     ),),
        Tab(child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      
       children: [
         Icon(Icons.task),
         SizedBox(width: 8),
@@ -639,7 +640,7 @@ class tabbar extends StatelessWidget {
       ],
     ),),
         Tab(child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      
       children: [
         Icon(Icons.restart_alt),
         SizedBox(width: 8),
@@ -647,7 +648,7 @@ class tabbar extends StatelessWidget {
       ],
     ),),
          Tab(child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      
       children: [
         Icon(Icons.file_copy),
         SizedBox(width: 8),
